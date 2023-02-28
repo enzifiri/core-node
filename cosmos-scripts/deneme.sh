@@ -4,4 +4,4 @@ source <(curl -s https://raw.githubusercontent.com/enzifiri/core-node/main/cosmo
 
 printLogo
 
-read -r -p "Enter node moniker: " NODE_MONIKER
+read -r -p "Moniker ismi gir: " NODE_MONIKER
