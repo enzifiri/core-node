@@ -79,4 +79,4 @@ sudo systemctl start nibid
 printLine
 echo -e "Log Kontrol:            ${CYAN}sudo journalctl -u $BINARY_NAME -f --no-hostname -o cat ${NC}"
 echo -e "Senkron Kontrol: ${CYAN}$BINARY_NAME status 2>&1 | jq .SyncInfo.catching_up${NC}"
-echo -e "Diğer Komutlar:         ${CYAN}$CHEAT_SHEET${NC}"
+echo -e "Diger Komutlar:         ${CYAN}$CHEAT_SHEET${NC}"
